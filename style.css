@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Vithkuqi:wght@500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    width: 100%;
+    height: 100vh;
+    scrollbar-width: none; 
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+    
+}
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+}
+
+*{
+    font-family: 'Noto Sans Vithkuqi', sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    overflow-x: hidden;
+}
+
+.brand img {
+    width: 16rem;
+    height: 4rem;
+}
+
+.navbar-items {
+    margin-left: 19rem;
+}
+
+.navbar-items a {
+    text-decoration: none;
+    color: green;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 2rem;
+}
+
+.navbar-items a:hover {
+    border-bottom: 4px solid green;
+}
+
+.navbar-icon i {
+    color: green;
+    font-size: 1.5rem;
+}
+
+.image img {
+    width: 100%;
+    height: 43rem;
+    opacity: 0.7;
+}
+
+.image {
+    position: relative;
+    z-index: -1;
+}
+
+.image .content {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    margin-left: -15rem;
+    padding: 20px;
+}
+
+.image .content h1 {
+    font-size: 4.5rem;
+    padding-left: 40px;
+    margin-bottom: 1rem;
+}
+
+.image .content p {
+    font-size: 25px;
+    margin-left: 0.8rem;
+    margin-bottom: 15px;
+    font-weight: lighter;
+    padding-left: 40px;
+}
+
+.buttons{
+    margin-top: 5rem;
+    margin-left: 40px;
+}
+.buttons button{
+    border-radius: 20px;
+    width: 1rem;
+    height: 1rem;
+    border: none;
+    opacity: 0.6;
+    margin-left: 3rem;
+    background-color: black;
+}
+
+.image .content a {
+    display: inline-block;
+    padding: 15px 25px;
+    margin-left: 0.8rem;
+    margin-top: 1.5rem;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    margin-left:3rem;
+    padding-top: 4rem;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 7px solid green;
+    margin-left: 7rem;
+    padding-left: 1rem;
+    height: 3rem ;
+}
+.header p{
+    font-size: 40px;
+    font-weight: 900;
+}
+.div1-content{
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+.div1-content img{
+    width: 29rem;
+    height: 25rem;
+}
+.div1-content .text{
+    font-size: 30px;
+    align-items: left;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 10rem;
+}
+.div2-form{
+    margin-top: 2rem;
+    margin-left: 25rem;
+    width: 53rem;
+    height: fit-content;
+    padding: 45px 6rem;
+    background-color: #a8ccac;
+    border-radius: 20px;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    margin-left:3rem;
+    padding-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.div2-btn {
+    display: flex;
+    justify-content: space-between;
+}
+.div2-btn button {
+    border-radius: 14px;
+    width: 11rem;
+    height: 3rem;
+}
+#exampleInputEmail1::placeholder {
+    position: absolute;
+    top: 13px;
+    left: 30px;
+    font-size: 13px;
+}
+#exampleInputPassword1::placeholder {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 15px;
+}
+.div4{
+    height: 20rem;  
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    padding-left:6rem;
+}
+.div4-1{
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+.div4-2{
+ flex: 1;
+ background-color: #f8ecac;
+ padding-left: 5rem;
+ padding-top: 2rem;
+}
+.div4-1 img{
+    height: 4rem;
+    width: 17rem;
+    margin-bottom: 1.5rem;
+}
+.div4-1 p{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.div4-2-labels{
+    display: flex;
+}
+.no-bullets {
+    list-style: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+.div4-2-label{
+    margin-right: 8rem;
+}
+.no-bullets li{
+    margin-bottom: 5px;
+}
+.div3{
+    padding-left: 3rem;
+}
+.div3-cards{
+    height: fit-content;
+    display: flex;
+    padding-bottom: 4rem;
+    padding-left: 5rem;
+    width: 100vw;
+}
+.div3-card{
+    display: flex;
+    flex-direction: column;
+    padding: 0.9rem 1rem;
+    width: 70rem;
+    height: fit-content;
+    border-radius: 20px;
+    margin-right: 3rem;
+    border: 1px solid gray;
+}
+.card-name img{
+    width: 5rem;
+    height: 4.2rem;
+    border-radius: 30px;
+}
+.div3-cards i {
+    position: absolute;
+    color: green;
+    font-size: 5rem;
+    margin-top: 6rem;
+    opacity: 0.7;
+    background: white;
+    margin-left: 80rem;
+}
+.farm{
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+}
+.farm-header{
+    text-align: center;
+    margin-bottom: 10rem;
+    margin-left: 10rem;
+}
+.farm-header span{
+ font-size: 40px;
+ font-weight: 800;
+ opacity: 0.8;
+}
+.farm-contents{
+    height: 5rem;
+    padding-left: 17rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 13rem;
+}
+.farm-contents img{
+    width: 20rem;
+    border-radius: 15px;
+}
+.farm-content{
+    margin-top: 4rem;
+    padding-left: 3rem;
+    font-size: 20px;
+    width: 25rem;
+    text-align: left;
+}
+.content-image p {
+    font-size: 33px;
+    text-align: center;
+    margin-top: 10px;
+}
+.card-name img{
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+}
+.card-name p{
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: larger;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    
+    body{
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .navbar-items {
+        display: none;
+    }
+
+    .navbar-icon {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 1rem;
+    }
+
+    .navbar-icon i {
+        font-size: 1.3rem;
+    }
+
+    .image .content {
+        margin-left: 0.5rem;
+    }
+
+    .image .content h1 {
+        font-size: 3.5rem;
+    }
+
+    .image .content p {
+        display: none;
+    }
+
+    .buttons {
+        display: none;
+    }
+
+    .div1 {
+        margin-left: 1rem;
+        padding-top: 2rem;
+    }
+    .header{
+        margin-left: 1rem;
+    }
+    .header p {
+        font-size: 30px;
+    }
+
+    .div1-content {
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+
+    .div1-content img {
+        width: 20rem;
+        height: 18rem;
+    }
+
+    .div1-content .text {
+        font-size: 22px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .farm-header{
+        margin-left: 2rem;
+    }
+    .div2-form {
+        margin-left: 1rem;
+        margin-right: 4rem;
+        width: auto;
+        padding: 20px;
+    }
+    .div4{
+        flex-direction: column;
+        align-items: center;
+    }
+    .div2-btn {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .div2-btn button {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .div4-1 p {
+        font-size: 16px;
+    }
+
+    .div4-2 {
+        padding-left: 2rem;
+        padding-right: 4rem;
+        padding-top: 1rem;
+        margin-right: 5rem;
+        width: 100%;
+        text-align: center;
+    }
+    .div4-2 p{
+        margin-left: 2rem;
+    }
+
+    .div4-2-labels {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div4-2-label {
+        margin-right: 0;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .div4-2-label ul {
+        text-align: center;
+    }
+
+    .div4-2-label ul li {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .div3-cards {
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 7rem;
+    }
+    .card-content{
+        margin-top: 2rem;
+    }
+
+    .div3-card {
+        width: auto;
+        margin-right: 0;
+        margin-bottom: 2rem;
+        padding: 0.5rem;
+    }
+
+    .div3-card .card-name {
+        align-items: center;
+        margin-left: 2rem;
+    }
+
+    .div3-cards i {
+        position: static;
+        margin: 1rem auto;
+    }
+    .farm{
+        height: 65rem;
+
+    }
+    .farm-header{
+        margin-right: 2rem;
+    }
+    .farm-header p {
+        font-size: 5px;
+    }
+
+    .farm-contents {
+        padding-left: 1rem;
+        flex-direction: column;
+        padding-right: 1rem;
+        margin-bottom: 20rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .farm-contents img {
+        width: 100%;
+        height: auto;
+    }
+
+    .farm-content {
+        font-size: 18px;
+        margin-top: 1rem;
+        padding-left: 1rem;
+        text-align: center;
+        padding-right: 1rem;
+        width: auto;
+    }
+    .none{
+        display: none;
+    }
+}
